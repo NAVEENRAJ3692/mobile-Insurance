@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189546AA1EEE936100B8FA28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189546A91EEE936100B8FA28 /* main.m */; };
+		189546AD1EEE936100B8FA28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189546AC1EEE936100B8FA28 /* AppDelegate.m */; };
+		189546B01EEE936200B8FA28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189546AF1EEE936200B8FA28 /* ViewController.m */; };
+		189546B31EEE936200B8FA28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189546B11EEE936200B8FA28 /* Main.storyboard */; };
+		189546B61EEE936200B8FA28 /* Mobile_Insurance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 189546B41EEE936200B8FA28 /* Mobile_Insurance.xcdatamodeld */; };
+		189546B81EEE936200B8FA28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189546B71EEE936200B8FA28 /* Assets.xcassets */; };
+		189546BB1EEE936200B8FA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189546B91EEE936200B8FA28 /* LaunchScreen.storyboard */; };
+		189546C61EEE936200B8FA28 /* Mobile_InsuranceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189546C51EEE936200B8FA28 /* Mobile_InsuranceTests.m */; };
+		189546D11EEE936200B8FA28 /* Mobile_InsuranceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189546D01EEE936200B8FA28 /* Mobile_InsuranceUITests.m */; };
+		189546E21EEEBC6D00B8FA28 /* Launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 189546E11EEEBC6D00B8FA28 /* Launchimage.png */; };
+		189546E41EEECA0300B8FA28 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 189546E31EEECA0300B8FA28 /* menu.png */; };
+		189546E61EEECAB500B8FA28 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 189546E51EEECAB500B8FA28 /* settings.png */; };
+		189546E81EEECE7300B8FA28 /* smartphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 189546E71EEECE7300B8FA28 /* smartphone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189546C21EEE936200B8FA28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1895469D1EEE936100B8FA28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189546A41EEE936100B8FA28;
+			remoteInfo = "Mobile Insurance";
+		};
+		189546CD1EEE936200B8FA28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1895469D1EEE936100B8FA28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189546A41EEE936100B8FA28;
+			remoteInfo = "Mobile Insurance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189546A51EEE936100B8FA28 /* Mobile Insurance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Insurance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189546A91EEE936100B8FA28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189546AB1EEE936100B8FA28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		189546AC1EEE936100B8FA28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		189546AE1EEE936200B8FA28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		189546AF1EEE936200B8FA28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		189546B21EEE936200B8FA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189546B51EEE936200B8FA28 /* Mobile_Insurance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mobile_Insurance.xcdatamodel; sourceTree = "<group>"; };
+		189546B71EEE936200B8FA28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189546BA1EEE936200B8FA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189546BC1EEE936200B8FA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189546C11EEE936200B8FA28 /* Mobile InsuranceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile InsuranceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189546C51EEE936200B8FA28 /* Mobile_InsuranceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mobile_InsuranceTests.m; sourceTree = "<group>"; };
+		189546C71EEE936200B8FA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189546CC1EEE936200B8FA28 /* Mobile InsuranceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile InsuranceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189546D01EEE936200B8FA28 /* Mobile_InsuranceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mobile_InsuranceUITests.m; sourceTree = "<group>"; };
+		189546D21EEE936200B8FA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189546E11EEEBC6D00B8FA28 /* Launchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launchimage.png; sourceTree = "<group>"; };
+		189546E31EEECA0300B8FA28 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		189546E51EEECAB500B8FA28 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		189546E71EEECE7300B8FA28 /* smartphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smartphone.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189546A21EEE936100B8FA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189546BE1EEE936200B8FA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189546C91EEE936200B8FA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1895469C1EEE936100B8FA28 = {
+			isa = PBXGroup;
+			children = (
+				189546A71EEE936100B8FA28 /* Mobile Insurance */,
+				189546E01EEEBB9800B8FA28 /* images */,
+				189546C41EEE936200B8FA28 /* Mobile InsuranceTests */,
+				189546CF1EEE936200B8FA28 /* Mobile InsuranceUITests */,
+				189546A61EEE936100B8FA28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189546A61EEE936100B8FA28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189546A51EEE936100B8FA28 /* Mobile Insurance.app */,
+				189546C11EEE936200B8FA28 /* Mobile InsuranceTests.xctest */,
+				189546CC1EEE936200B8FA28 /* Mobile InsuranceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189546A71EEE936100B8FA28 /* Mobile Insurance */ = {
+			isa = PBXGroup;
+			children = (
+				189546AB1EEE936100B8FA28 /* AppDelegate.h */,
+				189546AC1EEE936100B8FA28 /* AppDelegate.m */,
+				189546AE1EEE936200B8FA28 /* ViewController.h */,
+				189546AF1EEE936200B8FA28 /* ViewController.m */,
+				189546B11EEE936200B8FA28 /* Main.storyboard */,
+				189546B71EEE936200B8FA28 /* Assets.xcassets */,
+				189546B91EEE936200B8FA28 /* LaunchScreen.storyboard */,
+				189546BC1EEE936200B8FA28 /* Info.plist */,
+				189546B41EEE936200B8FA28 /* Mobile_Insurance.xcdatamodeld */,
+				189546A81EEE936100B8FA28 /* Supporting Files */,
+			);
+			path = "Mobile Insurance";
+			sourceTree = "<group>";
+		};
+		189546A81EEE936100B8FA28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189546A91EEE936100B8FA28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		189546C41EEE936200B8FA28 /* Mobile InsuranceTests */ = {
+			isa = PBXGroup;
+			children = (
+				189546C51EEE936200B8FA28 /* Mobile_InsuranceTests.m */,
+				189546C71EEE936200B8FA28 /* Info.plist */,
+			);
+			path = "Mobile InsuranceTests";
+			sourceTree = "<group>";
+		};
+		189546CF1EEE936200B8FA28 /* Mobile InsuranceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				189546D01EEE936200B8FA28 /* Mobile_InsuranceUITests.m */,
+				189546D21EEE936200B8FA28 /* Info.plist */,
+			);
+			path = "Mobile InsuranceUITests";
+			sourceTree = "<group>";
+		};
+		189546E01EEEBB9800B8FA28 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				189546E31EEECA0300B8FA28 /* menu.png */,
+				189546E51EEECAB500B8FA28 /* settings.png */,
+				189546E11EEEBC6D00B8FA28 /* Launchimage.png */,
+				189546E71EEECE7300B8FA28 /* smartphone.png */,
+			);
+			name = images;
+			path = "Mobile Insurance";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189546A41EEE936100B8FA28 /* Mobile Insurance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189546D51EEE936200B8FA28 /* Build configuration list for PBXNativeTarget "Mobile Insurance" */;
+			buildPhases = (
+				189546A11EEE936100B8FA28 /* Sources */,
+				189546A21EEE936100B8FA28 /* Frameworks */,
+				189546A31EEE936100B8FA28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobile Insurance";
+			productName = "Mobile Insurance";
+			productReference = 189546A51EEE936100B8FA28 /* Mobile Insurance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189546C01EEE936200B8FA28 /* Mobile InsuranceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189546D81EEE936200B8FA28 /* Build configuration list for PBXNativeTarget "Mobile InsuranceTests" */;
+			buildPhases = (
+				189546BD1EEE936200B8FA28 /* Sources */,
+				189546BE1EEE936200B8FA28 /* Frameworks */,
+				189546BF1EEE936200B8FA28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189546C31EEE936200B8FA28 /* PBXTargetDependency */,
+			);
+			name = "Mobile InsuranceTests";
+			productName = "Mobile InsuranceTests";
+			productReference = 189546C11EEE936200B8FA28 /* Mobile InsuranceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		189546CB1EEE936200B8FA28 /* Mobile InsuranceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189546DB1EEE936200B8FA28 /* Build configuration list for PBXNativeTarget "Mobile InsuranceUITests" */;
+			buildPhases = (
+				189546C81EEE936200B8FA28 /* Sources */,
+				189546C91EEE936200B8FA28 /* Frameworks */,
+				189546CA1EEE936200B8FA28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189546CE1EEE936200B8FA28 /* PBXTargetDependency */,
+			);
+			name = "Mobile InsuranceUITests";
+			productName = "Mobile InsuranceUITests";
+			productReference = 189546CC1EEE936200B8FA28 /* Mobile InsuranceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1895469D1EEE936100B8FA28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					189546A41EEE936100B8FA28 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2K5A82V68V;
+						ProvisioningStyle = Automatic;
+					};
+					189546C01EEE936200B8FA28 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2K5A82V68V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 189546A41EEE936100B8FA28;
+					};
+					189546CB1EEE936200B8FA28 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2K5A82V68V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 189546A41EEE936100B8FA28;
+					};
+				};
+			};
+			buildConfigurationList = 189546A01EEE936100B8FA28 /* Build configuration list for PBXProject "Mobile Insurance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1895469C1EEE936100B8FA28;
+			productRefGroup = 189546A61EEE936100B8FA28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189546A41EEE936100B8FA28 /* Mobile Insurance */,
+				189546C01EEE936200B8FA28 /* Mobile InsuranceTests */,
+				189546CB1EEE936200B8FA28 /* Mobile InsuranceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189546A31EEE936100B8FA28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189546E61EEECAB500B8FA28 /* settings.png in Resources */,
+				189546E21EEEBC6D00B8FA28 /* Launchimage.png in Resources */,
+				189546E41EEECA0300B8FA28 /* menu.png in Resources */,
+				189546BB1EEE936200B8FA28 /* LaunchScreen.storyboard in Resources */,
+				189546B81EEE936200B8FA28 /* Assets.xcassets in Resources */,
+				189546B31EEE936200B8FA28 /* Main.storyboard in Resources */,
+				189546E81EEECE7300B8FA28 /* smartphone.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189546BF1EEE936200B8FA28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189546CA1EEE936200B8FA28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189546A11EEE936100B8FA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189546B61EEE936200B8FA28 /* Mobile_Insurance.xcdatamodeld in Sources */,
+				189546B01EEE936200B8FA28 /* ViewController.m in Sources */,
+				189546AD1EEE936100B8FA28 /* AppDelegate.m in Sources */,
+				189546AA1EEE936100B8FA28 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189546BD1EEE936200B8FA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189546C61EEE936200B8FA28 /* Mobile_InsuranceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189546C81EEE936200B8FA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189546D11EEE936200B8FA28 /* Mobile_InsuranceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189546C31EEE936200B8FA28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189546A41EEE936100B8FA28 /* Mobile Insurance */;
+			targetProxy = 189546C21EEE936200B8FA28 /* PBXContainerItemProxy */;
+		};
+		189546CE1EEE936200B8FA28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189546A41EEE936100B8FA28 /* Mobile Insurance */;
+			targetProxy = 189546CD1EEE936200B8FA28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		189546B11EEE936200B8FA28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189546B21EEE936200B8FA28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189546B91EEE936200B8FA28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189546BA1EEE936200B8FA28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189546D31EEE936200B8FA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		189546D41EEE936200B8FA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189546D61EEE936200B8FA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2K5A82V68V;
+				INFOPLIST_FILE = "Mobile Insurance/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Benchmark.Mobile-Insurance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		189546D71EEE936200B8FA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2K5A82V68V;
+				INFOPLIST_FILE = "Mobile Insurance/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Benchmark.Mobile-Insurance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		189546D91EEE936200B8FA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2K5A82V68V;
+				INFOPLIST_FILE = "Mobile InsuranceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Benchmark.Mobile-InsuranceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile Insurance.app/Mobile Insurance";
+			};
+			name = Debug;
+		};
+		189546DA1EEE936200B8FA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2K5A82V68V;
+				INFOPLIST_FILE = "Mobile InsuranceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Benchmark.Mobile-InsuranceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile Insurance.app/Mobile Insurance";
+			};
+			name = Release;
+		};
+		189546DC1EEE936200B8FA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2K5A82V68V;
+				INFOPLIST_FILE = "Mobile InsuranceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Benchmark.Mobile-InsuranceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mobile Insurance";
+			};
+			name = Debug;
+		};
+		189546DD1EEE936200B8FA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2K5A82V68V;
+				INFOPLIST_FILE = "Mobile InsuranceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Benchmark.Mobile-InsuranceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mobile Insurance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189546A01EEE936100B8FA28 /* Build configuration list for PBXProject "Mobile Insurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189546D31EEE936200B8FA28 /* Debug */,
+				189546D41EEE936200B8FA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189546D51EEE936200B8FA28 /* Build configuration list for PBXNativeTarget "Mobile Insurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189546D61EEE936200B8FA28 /* Debug */,
+				189546D71EEE936200B8FA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189546D81EEE936200B8FA28 /* Build configuration list for PBXNativeTarget "Mobile InsuranceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189546D91EEE936200B8FA28 /* Debug */,
+				189546DA1EEE936200B8FA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189546DB1EEE936200B8FA28 /* Build configuration list for PBXNativeTarget "Mobile InsuranceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189546DC1EEE936200B8FA28 /* Debug */,
+				189546DD1EEE936200B8FA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		189546B41EEE936200B8FA28 /* Mobile_Insurance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				189546B51EEE936200B8FA28 /* Mobile_Insurance.xcdatamodel */,
+			);
+			currentVersion = 189546B51EEE936200B8FA28 /* Mobile_Insurance.xcdatamodel */;
+			path = Mobile_Insurance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1895469D1EEE936100B8FA28 /* Project object */;
+}
